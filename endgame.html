@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Header logo-->
+    <header>Coders Quiz</header>
+    <div class="container">
+        <div id="endgame">
+            <h2 id="score">0</h2>
+            <form class="end-form">
+                <h2 id="end-text-form">Enter your name to save your score!</h2>
+                <input type="text" name="name" id="username" placeholder= "Enter your name" required>
+                <button class="end-buton"  id="save-score" type="submit" onclick="saveHighScore(event)" disabled>Save Score</button>
+            
+            <a href="/game.html" class="end-buton">Play Again</a>
+            <a href="/index.html" class="end-buton">Home</a>
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>
